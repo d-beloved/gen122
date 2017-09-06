@@ -9,4 +9,7 @@
 
   $(document).ready(function(){
       $('.slider').slider();
+      	setInterval(function() {
+      		$('.slider').slider('next');
+      	}, 10000);
     });
