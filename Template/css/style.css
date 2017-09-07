@@ -26,7 +26,18 @@ body,
 .slider {
   background-color: #000000; 
 }
-.slide-img { opacity: 0.5; 
+.slide-img { 
+  opacity: 0.5; 
+}
+
+.btn{
+  background-color: transparent;
+}
+.btn:hover {
+  background-color: grey;
+}
+.btn:focus{ 
+  background-color: #4dd0e1 
 }
 
 p {
@@ -70,8 +81,10 @@ p {
   font-size: inherit;
 }
 
-footer.page-footer {
+.footer-copyright {
   margin: 10;
-  position: relative;
+  position: absolute;
   z-index: 1000;
+  bottom: 0px;
+  width: 100%;
 }
