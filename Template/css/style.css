@@ -23,6 +23,12 @@ body,
     width: 100%;
 }
 
+.slider {
+  background-color: #000000; 
+}
+.slide-img { opacity: 0.5; 
+}
+
 p {
   line-height: 2rem;
 }

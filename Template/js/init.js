@@ -9,7 +9,7 @@
 
   $(document).ready(function(){
       $('.slider').slider();
-      	setInterval(function() {
+      	setinterval(function() {
       		$('.slider').slider('next');
       	}, 10000);
     });
