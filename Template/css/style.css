@@ -14,9 +14,8 @@ nav {
 }
 
 html,
-body,
-.responsive-img {
-    background-color: grey transparent;
+body {
+    background-color: red-transparent;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
