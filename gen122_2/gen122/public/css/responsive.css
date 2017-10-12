@@ -1,0 +1,264 @@
+/* ------------------------- Start Media Query -------------------------------------- */
+
+/* X Small Screen */
+@media(min-width: 100px) and (max-width: 991px) {
+    
+    /* START GLOBAL STYLESHEET */
+    
+    .pdn {
+        padding-top: 140px;
+    }
+    
+    .title {
+        position: absolute;
+        transform: rotate(0);
+        padding-left: 20px;
+        top: 85px;
+    }
+    
+    /* Start Navbar */
+    
+    nav {
+        top: 0;
+        z-index: 20;
+    }
+    
+    nav .nav-wrapper i,
+    nav a.button-collapse,
+    nav a.button-collapse i {
+        color: #333;
+        right: 0
+    }
+    
+    nav .brand-logo {
+        bottom: 4px;
+        left: 55px;
+    }
+    
+    .side-nav {
+        width: 190px;
+    }
+    
+    .side-nav li {
+        display: block;
+        position: relative;
+    }
+    
+    .side-nav li>a {
+        display: inline-block;
+        font-weight: 400;
+        height: 55px;
+    }
+    
+    .side-nav li:first-of-type {
+        margin-top: 5px;
+    }
+    
+    nav .nav-wrapper .social-media ul li {
+        display: inline-block;
+        margin-top:-20px;
+        margin-left: 10px;
+    }
+    
+    nav .nav-wrapper .social-media ul li:last-of-type {
+        display: block;
+        position: absolute;
+        right: -21px;
+        bottom: 48px;
+        border-top: none;
+        height: 37px;
+    }
+    
+    nav .nav-wrapper .side-nav li>a>i {
+        margin: 0;
+    }
+    
+    nav .nav-wrapper .visible {
+        position: absolute;
+        width: 115px;
+        left: 0;
+    }
+    
+    nav .nav-wrapper .side-nav .search {
+        display: none;
+    }
+    
+    .drag-target,
+    #sidenav-overlay {
+        z-index: 0;
+    }
+    
+    .header .slider .slides {
+        height: 100vh!important;
+    }
+    
+    .header .slider .indicators {
+        top: 50vh;
+        left: 0;
+    }
+    
+    .header .slider h3 {
+        font-size: 4rem;
+    }
+    
+    .header .slider .slides .slide2 .caption {
+        top: 40vh;
+    }
+    
+    .header .image .caption h3,
+    .header .particles .caption h3,
+    .header .youtube .caption h3 {
+        padding-top: 220px;
+    }
+    
+    /* Start About */
+    
+    .about {
+        margin-bottom: 0;
+    }
+    
+    .about h5 {
+        margin-top: 35px;
+    }
+    
+    .about .weare p {
+        border-right: none;
+        padding-bottom: 20px;
+        padding-left: 10px;
+    }
+    
+    .about .skills {
+        margin-left: 0;
+    }
+    
+    .about .skills div {
+        width: 100%;
+        padding-left: 18%;
+        margin-bottom: 40px;
+    }
+    
+    .about .skills div span:nth-of-type(4) {
+        left: 64%;
+    }
+    
+    .about .skills h6:nth-of-type(4) {
+        left: 69%;
+    }
+    
+    .about .skills div span:nth-of-type(3), .about .skills h6:nth-of-type(3) {
+        left: 49%;
+    }
+    
+    .about .team1 h5 {
+        padding-top: 40px;
+    }
+    
+    .about .team3 {
+        margin-top: 0;
+    }
+    
+    .about .team1 {
+        position: relative;
+        margin-bottom: 0;
+    }
+    
+    .about .team2,
+    .about .team3 {
+        position: relative;
+        top: 0;
+    }
+    
+    .about .col.l3 {
+        position: static;
+    }
+
+    .about .space {
+        margin-bottom: 0;
+    }
+    
+    /* Start Services */
+    
+    .serv {
+        position: relative;
+    }
+    
+    .serv .info {
+        margin-top: 35px;
+        margin-bottom: 25px;
+    }
+    
+    /* Start Work */
+    
+    .work {
+        margin-bottom: 0;
+    }
+    
+    /* Start Contact */
+    
+    .contact {
+        position: relative;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .contact .copyright span {
+        bottom: 0;
+        left: 0
+    }
+    
+    .contact .cont {
+        margin-bottom: 40px;
+        margin-top: 15px;
+    }
+    
+    .contact .info {
+        padding-top: 26px;
+    }
+    
+    .contact .pdn {
+         padding-bottom: 56px; 
+    }
+    
+    .contact h5 {
+        padding-left: 10px;
+    }
+    
+    .contact p {
+        padding-bottom: 43px;
+    }
+    
+    .contact .address {
+        margin-bottom: 31px;
+    }
+    
+    .contact .input-field .prefix {
+        font-size: 25px;
+    }
+    
+    .contact .info i {
+        font-size: 26px;
+    }
+}
+
+/* Small Screen */
+@media(min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Medium Screen */
+@media(min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Larg Screen */
+@media(min-width: 1200px) {
+
+    .work .row .col.l3 {
+        width: 27%;
+    }
+
+    .work .row .col.l4{
+        width: 29.333333%;
+    }
+}
+/* ------------------------- End Media Query ---------------------------------------- */

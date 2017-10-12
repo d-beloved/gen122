@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Data -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Title -->
+        <title>Gen122 | Home</title>
+        
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/materialize.min.css" />
+        <link rel="stylesheet" href="css/lightbox.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/default-template.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/light-layout.css" />
+        
+        <!-- Google Icon Font Materialize-->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+        <link rel="stylesheet" type="text/css" href="css/materialize-stepper.min.css">
+        <link rel="stylesheet" href="css/form.css"/> 
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster+Two:400,400i|Roboto">
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- Start Navbar -->
+        <!-- Dropdown Structure -->
+        <nav>
+            <div class="nav-wrapper">
+                <a href="index.html"><img src="images/logo.png" alt="logo" class="light-logo brand-logo responsive-img"/></a> <!-- Here You Can Add Your LOGO -->
+                <a href="index.html"><img src="images/logo.png" alt="logo" class="dark-logo brand-logo responsive-img"/></a> <!-- Here You Can Add Your LOGO -->
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="navi hide-on-med-and-down">
+                    <li><a href="index.html#home-cont">Home</a></li>
+                    <span>.</span>
+                    <li class="active"><a href="form1.html">Client Registration</a></li>
+                    <span>.</span>
+                    <li><a href="form2.html">Staff Registration</a></li> 
+                    <span>.</span>
+
+                </ul>
+                   <div class="social-media hide-on-med-and-down">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/company/11275044/" target="_blank"><i class="fa fa-linkedin right"></i></a></li>
+                            <li><a href="https://twitter.com/Gen122_CSO" target="_blank"><i class="fa fa-twitter right"></i></a></li>
+                            <li><a href="http://www.facebook.com/Gen122-348289812282127/" target="_blank"><i class="fa fa-facebook right"></i></a></li>
+                            <li><a href="#"><i class="material-icons right search">search</i></a></li>
+                        </ul>
+                    </div>
+                    <form>
+                        <input id="search" type="search" class="boxsearch" placeholder="Search ..."/>
+                    </form>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html#home-cont">Home</a></li>
+                    <li class="active"><a href="form1.html">Client Registration</a></li>
+                    <li><a href="form2.html">Staff Registration</a></li>
+                    <div class="social-media">
+                        <ul>
+                            <li><a href="https://dribbble.com/" target="_blank"><i class="fa fa-linkedin right"></i></a></li>
+                            <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter right"></i></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook right"></i></a></li>
+                            <li><a href="#"><i class="material-icons right search">search</i></a></li>
+                        </ul>
+                    </div>
+                    <form>
+                        <input id="search" type="search" class="boxsearch" placeholder="Search ..."/>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- End Navbar -->
+        
+        <div class="my-container">
+
+    
+
+            <!-- Start registration form-1 Client -->
+
+            <section class="contact pdn">
+                <div class="row">
+                    <div class="col l2">
+                        <h4 class="color title">Registration &nbsp; |</h4>
+                    </div>
+                    <div class="col l5 s12">
+                        <h5 class="color">- Client Registration Form</h5>
+                        
+                            <div class="cont">
+                                <div class="row">
+                                  <div class="col s12">
+                                    <form class="CreateClient">
+                                        <h5>Create a new user</h5>
+                                        <input type="text" class="first_name" placeholder="first name">
+                                        <input type="text" class="address" placeholder="address">
+                                        <input type="submit" value="submit">
+                                    </form>
+                                   <!-- <form class="CreateClient">
+                                    <ul data-method="GET" class="CreateClient stepper horizontal">
+                                    <li class="step active">
+                                    <div class="step-title waves-effect waves-dark">Contact detail</div>
+                                    <div class="step-content">
+                                        <div class="row">
+                                        <div class="input-field col s12">
+                                            <i class="fa fa-user prefix"></i>
+                                            <input id="icon_prefix" type="text" class="first_name validate" required>
+                                            <label for="icon_prefix">First Name</label>
+                                        </div>
+                                        <div class="input-field col s12">   
+                                            <i class="fa fa-user prefix"></i>
+                                            <input id="icon_prefix" type="text" class="surname validate" required>
+                                            <label for="icon_prefix">Surname</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">place</i>
+                                            <input id="icon_place" type="text" class="address validate" required>
+                                            <label for="icon_place">Address</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <i class="material-icons prefix">local_post_office</i>
+                                            <input id="icon_post" type="number" class="post_code validate" required>
+                                            <label for="icon_post">Postcode</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                        <i class="material-icons prefix">phone</i>
+                                        <input id="icon_telephone" type="tel" class="telephone validate">
+                                        <label for="icon_telephone">Daytime Telephone</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                        <i class="material-icons prefix">phone_iphone</i>
+                                        <input id="icon_telephone" type="tel" class="mobile validate">
+                                        <label for="icon_phone_iphone">Mobile</label>
+                                        </div>
+                                        <div class="input-field col s12">
+                                        <i class="material-icons prefix">email</i>
+                                        <input id="icon_email" type="email" class="email validate">
+                                        <label for="icon_email">email</label>
+                                        </div>
+                                    </div>
+                                        <div class="step-actions">
+                                            <button class="btn waves-effect waves-dark" type="submit" name="action">Submit
+                                                <i class="material-icons right">send</i>
+                                            </button>
+                                            <button class="waves-effect waves-dark btn next-step" data-feedback="anyThing">Next</button>
+                                        </div>
+                                    </div> 
+                                </li>
+                                <!-- <li class="step">
+                                    <div class="step-title waves-effect waves-dark">Family Info</div>
+                                    <div class="step-content">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                            <input id="icon_telephone" type="text" class="ocp_mum validate">
+                                            <label for="icon_telephone">Occupation of Mother</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_telephone" type="text" class="ocp_dad validate">
+                                            <label for="icon_telephone">Occupation of Father</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_telephone" type="text" class="nationality validate">
+                                            <label for="icon_telephone">Nationality</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_telephone" type="text" class="religion validate" required>
+                                            <label for="icon_telephone">Religion</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_telephone" type="text" class="lang validate">
+                                            <label for="icon_telephone">Languages Spoken</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="mar_status">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Married</option>
+                                              <option value="2">Single</option>
+                                              <option value="3">Other</option>
+                                            </select>
+                                            <label>Marital Status</label>
+                                           </div>
+                                           <div class="input-field col s12">
+                                            <select class="have_child">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do you have any children</label>
+                                           </div>
+                                           <div class="input-field col s12">
+                                            <input id="icon_post" type="number" class="no_child validate">
+                                            <label for="icon_post">If Yes, Please specify number</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea1" class="children_name materialize-textarea"></textarea>
+                                              <label for="textarea1">Children's Names, Ages & Gender</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="chil_attend">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do the children attend school or Nursery?</label>
+                                           </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_prefix" type="text" class="sch_dist validate">
+                                            <label for="icon_prefix">How far is the School or Nursery from your home?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="home_stay">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do any of the children stay home all day?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="special_needs">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do any of the children have special needs?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea1" class="chil_info materialize-textarea"></textarea>
+                                              <label for="textarea1">Any other information regarding the children (Allergies, etc.)</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="expect_mother">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Are you expecting a baby?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="family_info">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Does any family member have a criminal record?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="pet">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do you have any pets?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_post" type="number" class="spec_pet validate" required>
+                                            <label for="icon_post">If Yes, Please specify</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea1" class="family_hobby materialize-textarea"></textarea>
+                                              <label for="textarea1">Family hobbies</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="smoke_status">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do you smoke?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="safe_issues">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Are there any health and safety issues that we need to know about?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea1" class="info materialize-textarea"></textarea>
+                                              <label for="textarea1">If yes, what steps have you taken to prevent or control such risks</label>
+                                            </div>
+                                        </div>
+                                        <div class="step-actions">
+                                          <button class="waves-effect waves-dark btn next-step" data-feedback="anyThing">Next</button>
+                                          <button class="waves-effect waves-dark btn previous-step">Prev</button>
+                                       </div>
+                                   </div>
+                               </li>
+                                   <li class="step">
+                                    <div class="step-title waves-effect waves-dark">More Info</div>
+                                    <div class="step-content">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                            <select class="acc_type">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Bungalow</option>
+                                              <option value="2">Flat</option>
+                                              <option value="3">House</option>
+                                            </select>
+                                            <label>Accomodation type</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="spec_house_type">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Detached</option>
+                                              <option value="2">Terraced</option>
+                                              <option value="3">Semi</option>
+                                            </select>
+                                            <label>If a house, please specify</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_post" type="number" class="recep_room validate">
+                                            <label for="icon_post">Number of reception rooms</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_post" type="number" class="no_of_bedroom validate" required>
+                                            <label for="icon_post">Number of Bedrooms</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_post" type="number" class="no_of_bathroom validate" required>
+                                            <label for="icon_post">Number of bathrooms</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_post" type="number" class="no_of_floor validate" required>
+                                            <label for="icon_post">Number of floors</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_prefix" type="text" class="nearest_station validate">
+                                            <label for="icon_prefix">Nearest Train/Tube station</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="aupair_have_room">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Will the Nanny/Aupair have their own Room?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea1" class="describe_accomo materialize-textarea"></textarea>
+                                              <label for="textarea1">Please give a description of accomodation for the staff</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select multiple class="facilities">
+                                              <option value="" disabled selected>Choose your options</option>
+                                              <option value="1">Toilet</option>
+                                              <option value="2">Bathroom</option>
+                                              <option value="3">Radio</option>
+                                              <option value="4">Television</option>
+                                              <option value="5">Use of computer</option>
+                                              <option value="3">Internet</option>
+                                            </select>
+                                            <label>Tick facilities available to Aupair</label>
+                                          </div>
+                                        </div>
+                                        <div class="step-actions">
+                                          <button class="waves-effect waves-dark btn next-step" data-feedback="anyThing">Next</button>
+                                          <button class="waves-effect waves-dark btn previous-step">Prev</button>
+                                       </div>
+                                   </div>
+                               </li>
+                               <li class="step">
+                                <div class="step-title waves-effect waves-dark">About Staff</div>
+                                <div class="step-content">
+                                         <div class="row">
+                                            <div class="input-field col s12">
+                                            <select class="type_required">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Live-in Mother's help</option>
+                                              <option value="2">Live-out Mother's help</option>
+                                              <option value="3">Live-in Nanny</option>
+                                              <option value="4">Live-out Nanny</option>
+                                              <option value="5">Babysitter</option>
+                                              <option value="6">Childminder</option>
+                                            </select>
+                                            <label>Childcare Required</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="length_of_service">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">6 Months</option>
+                                              <option value="2">1 year</option>
+                                            </select>
+                                            <label>Length of service required</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="age_preffered">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Minimum</option>
+                                              <option value="2">Maximum</option>
+                                              <option value="3">Flexible</option>
+                                            </select>
+                                            <label>Age preferred</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_prefix" type="text" class="preffered_nationality validate">
+                                            <label for="icon_prefix">Nationality preffered</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="preffered_gender">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">No preference</option>
+                                              <option value="2">Male</option>
+                                              <option value="3">Female</option>
+                                            </select>
+                                            <label>Gender preference</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="req_experience">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Are you seeking someone trained/Experienced?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="resp">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Will the employee have sole charge whilst both parents are at work?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="license">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Essential</option>
+                                              <option value="2">Preferred</option>
+                                              <option value="3">Not Essential</option>
+                                            </select>
+                                            <label>Driving license</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="level_of_english">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Beginner</option>
+                                              <option value="2">Intermediate</option>
+                                              <option value="3">Expert</option>
+                                            </select>
+                                            <label>Level of English Sought</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_prefix" type="text" class="language_wanted validate">
+                                            <label for="icon_prefix">Other Languages Required</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="interview_preference">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Happy to do a telephone interview as Some candidates are still abroad?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_prefix" type="text" class="total_working_hrs validate">
+                                            <label for="icon_prefix">Total working hours/week required</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                              <textarea id="textarea1" class="duties materialize-textarea"></textarea>
+                                              <label for="textarea1">Duties</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select multiple class="days_of_work">
+                                              <option value="" disabled selected>Choose your options</option>
+                                              <option value="1">Monday</option>
+                                              <option value="2">Tuesday</option>
+                                              <option value="3">Wednesday</option>
+                                              <option value="4">Thursday</option>
+                                              <option value="5">Friday</option>
+                                              <option value="6">Saturday</option>
+                                              <option value="7">Sunday</option>
+                                            </select>
+                                            <label>Days/Time staff is required to work</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <select class="night_babysitting">
+                                              <option value="" disabled selected>Choose an Option</option>
+                                              <option value="1">Yes</option>
+                                              <option value="2">No</option>
+                                            </select>
+                                            <label>Do you require night Babysitting?</label>
+                                            </div>
+                                            <div class="input-field col s12">
+                                            <input id="icon_prefix" type="text" class="pay_rate validate">
+                                            <label for="icon_prefix">Your target weekly pay rates</label>
+                                            </div>
+                                            <div class="input-field col m6 s12>">
+                                                <input type="text" class="datepicker time_to_commence required"/>
+                                                <label>Date you want service to commence</label>
+                                            </div>
+                                            <div class="col s12">
+                                            <p>By submitting this form, I confirm that the information I have given to Gen122 is accurate and acknowledge that I have read carefully and agree to the fee structure and terms of business now and in any future dealings with the agency. I also understand that the terms as laid out by Gen122 Limited is a contract governed by English Law</p>
+                                            </div>
+
+                                        </div>
+                                        <div class="step-actions">
+                                          <button class="btn waves-effect waves-dark" type="submit" name="action">Submit
+                                            <i class="material-icons right">send</i>
+                                          </button>
+                                       </div>
+                                   </div>
+                               </li>
+                           </ul>
+                        </form>    -->
+                        </div>
+                        </div>
+                        </div>
+
+                            <div class="copyright hide-on-med-and-down">
+                            <span>© Copyright 2017. All Right Reserved By Hanstechnology</span>
+                            </div>
+
+                        </div>
+                
+                    <!-- <div class="col l5 s12">
+                       <div class="container" style="padding-top: 50px" >
+                            <h1 style="box-sizing: border-box; margin: 0px 0px 20px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; font-weight: 300; color: #272727; line-height: 40px; font-size: 28px !important; text-align: center; background: #eeeeee;">Instructions
+                            </h1>
+                        <ol>
+                            <li>Please fill up the form step by step.</li>
+                            <li>Make sure you enter correct details on each page.</li>
+                            <li>You can go back to the previous page by clicking on "Prev" button.</li>
+                            <li>Fields marked with (*) sign are required.</li>
+                            <li>Submit the form and we will contact you as soon as possible.</li>
+                        </ol>
+                        <h5 style="box-sizing: border-box; margin: 0px 0px 20px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; font-weight: 300; color: #272727; line-height: 40px; font-size: 14px !important; text-align: center; background: #eeeeee;">Need help? <a href="index.html#contact-cont">Contact Us</a> </h5>
+
+                        <div class="card-panel transparent">
+                        <h1 style="box-sizing: border-box; margin: 0px 0px 20px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; font-weight: 300; color: #272727; line-height: 40px; font-size: 28px !important; text-align: center; background: #eeeeee;"><b>Child Care Jobs</b>
+                            </h1>
+                        <span class="black-text">Au Pair Needed in North London
+                        There is currently a requirement for an Au Pair for one of our families in based in North London. Please contact us if you are...
+                        Au Pair Needed in Surrey
+                        There is currently a requirement for an Au Pair for one of our families in based in...
+                        Au Pair Needed in Manchester
+                        There is currently a requirement for an Au Pair for one of our families in based in...
+                        </span>
+                        </div>
+                    </div>
+                    </div> -->
+                </div>
+
+            </section>
+
+            <!-- End Contact -->
+            
+        </div>
+
+        
+        <script src="/app.js"></script>
+        <!-- <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
+        <script src="js/materialize-stepper.min.js"></script>
+        <script src="js/form.js"></script>
+        <script src="js/custom.js"></script> -->
+    </body>
+</html>

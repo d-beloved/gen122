@@ -1,0 +1,63 @@
+.color,
+nav ul a:hover,
+nav ul i:hover,
+nav ul li.active a, 
+.about .next h4,
+.about .prev h4,
+.about .card .social-media a:hover,
+.serv .bord i,
+input[type=text]:focus:not([readonly])+label,
+textarea.materialize-textarea:focus:not([readonly])+label,
+input[type=email]:focus:not([readonly])+label,
+.input-field .prefix.active {
+    color: #5c9639;
+}
+
+.work .overlay-work {
+    background-color: rgba(92,150,57,0.7);
+}
+
+.about .skills div span {
+    background-color: #6bae42;
+}
+
+.about .skills div span:nth-of-type(2){
+    background-color: #629f3d;
+}
+.about .skills div span:nth-of-type(3),
+.serv .title-serv,
+.btn,
+.btn-large,
+.btn:hover,
+.btn-large:hover,
+.btn:focus, 
+.btn-large:focus,
+.btn-floating:focus,
+.box-vis  {
+    background-color: #5c9639;
+}
+.about .skills div span:nth-of-type(4){
+    background-color: #538833;
+}
+input[type=text]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]),
+input[type=email]:focus:not([readonly]) {
+    border-bottom: 1px solid #5c9639;
+    box-shadow: 0 1px 0 0 #5c9639;
+}
+
+nav li.active{
+    border-top: 1px solid #5c9639
+}
+
+.about .weare p {
+    border-right: 1px solid #5c9639;
+}
+
+.serv .ourserv .bord {
+    border: 1px solid #5c9639;
+}
+
+.box .ld a {
+    border: 2px solid #5c9639;
+}

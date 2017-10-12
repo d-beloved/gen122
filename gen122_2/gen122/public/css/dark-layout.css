@@ -1,0 +1,50 @@
+body,
+.dark,
+nav ul a,
+nav ul li,
+nav .navi span,
+.box .ld span,
+.side-nav li>a,
+nav .nav-wrapper .side-nav li>a>i,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i,
+.box-mobile .dark {
+    color: #FFF;
+}
+
+.body-light,
+.box-mobile .light {
+    color: #333;
+}
+
+.about .card p {
+    color: #ccc;
+}
+
+.header,
+.about,
+.serv,
+.work,
+.contact{
+    background-color: #222;
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i,
+nav ul a:hover,
+.side-nav li>a:hover,
+nav .nav-wrapper .boxsearch,
+nav ul li.active,
+.side-nav li.active,
+.side-nav,
+.about .card .title-team,
+.box {
+    background-color: #1e1e1e;
+}
+
+.about .card img {
+    box-shadow: 0px 3px 32px #0a0a0a;
+}
