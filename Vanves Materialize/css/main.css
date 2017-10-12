@@ -1,0 +1,1128 @@
+/*
+***************************************************** /
+
+* Theme Name: Vanves
+
+* Theme URI: http://vanves.eb2a.com/
+
+* Author: Bouthaina
+
+* Author URI: https://themeforest.net/user/bouthaina09
+
+* Description: Vanves
+
+* Version: 1.0.0
+
+* Tags: html5, css3, jquery, bootstrap, theme, template, modern, responsive, personal, cv, team, corporate, business
+
+*****************************************************/
+
+/*
+|------------------------------------------------------
+| CSS INDEX
+|------------------------------------------------------
+
+1. GLOBAL STYLESHEET
+
+2. NAVBAR & HEADER
+
+3. ABOUT SECTION
+
+    1.SKILLS
+    2.TEAM
+
+4. SERIVES SECTION
+
+5. WROK SECTION
+
+6. CONTACT SECTION
+
+
+/*==========================================================
+
+                    1. START GLOBAL STYLESHEET
+
+===========================================================*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.title {
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 40%;
+    left: -6%;
+    margin: 0;
+    font-size: 35px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+
+/*==========================================================
+
+                    2. START NAVBAR & HEADER
+
+===========================================================*/
+
+
+/* Start Navbar */
+
+nav,
+nav .nav-wrapper i,
+nav a.button-collapse,
+nav a.button-collapse i{
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    line-height: 56px;
+    z-index: 99;
+}
+
+nav {
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.14), 0 1px 2px 0 rgba(0,0,0,0.12), 0 0px 1px 0px rgba(0,0,0,0.2);
+    position: fixed;
+}
+
+nav ul {
+    text-align: center;
+    height: 0;
+}
+
+nav ul a,
+.side-nav li>a {
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+nav ul li.active {
+    padding: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+nav ul li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 2;
+    padding: 0 10px;
+}
+
+nav .navi span {
+    padding: 0 10px;
+    position: relative;
+    top: -4px;
+}
+
+nav .brand-logo {
+    bottom: 2px;
+    left: 15px;
+}
+
+nav .nav-wrapper .search {
+    right: 25px;
+}
+
+nav .nav-wrapper .fa-dribbble {
+    right: 18%;
+}
+
+nav .nav-wrapper .fa-twitter {
+    right: 15%;
+}
+
+nav .nav-wrapper .fa-facebook {
+    right: 12.6%;
+}
+
+nav .nav-wrapper .boxsearch {
+    width: 180px;
+    height: 0;
+    position: absolute;
+    right: 0;
+    bottom: 36px;
+    border: none;
+    color: #333;
+    padding: 0 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    z-index: 1;
+}
+
+nav .nav-wrapper .visible {
+    height: 34px;
+    border: 1px solid #EEE;
+}
+
+nav .social-media {
+    display: inline-block;
+    height: 0;
+    line-height: 0;
+}
+
+nav form {
+    height: 0;
+}
+
+.side-nav li.active {
+    width: 70px;
+    margin: auto;
+}
+
+.slider .indicators .indicator-item {
+    height: 12px;
+    width: 12px;
+}
+
+/* End Navbar */
+
+
+/* Start Header */
+
+.header {
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    overflow: hidden;
+}
+
+.header .image {
+    background-image: url(http://placehold.it/1920x637); /* Here You Can Edit the image of Header (Background Image) */ 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header .particles {
+    background-image: url(http://placehold.it/1920x813); /* Here You Can Edit the image of Header (Background Particles)  */
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header .youtube #bg-video{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -999;
+    width: 1386px;
+    height: 780px;
+    background-position: center center;
+}
+
+.header .youtube .overlay-video {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255,255,255,0.1);
+    width: 100%;
+    height: 100vh;
+}
+
+.header .image .caption,
+.header .particles .caption,
+.header .youtube .caption {
+    text-align: center;
+    color: #FFF;
+}
+
+.header .image .caption h3,
+.header .particles .caption h3,
+.header .youtube .caption h3  {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 4rem;
+    padding-top: 16.5%;
+    margin-top: 0;
+    text-shadow: 1px 1px #2b2b2b;
+}
+
+.header .image .caption h5,
+.header .particles .caption h5,
+.header .youtube .caption h5 {
+    font-size: 18px;
+    text-shadow: 1px 1px #2b2b2b;
+}
+
+.particles-js-canvas-el {
+    position: absolute;
+    top: 0;
+}
+
+.header .slider .slides {
+    height: calc(100vh - 50px)!important;
+}
+
+.header .slider .slides li.active {
+    z-index: 0;
+}
+
+.header .slider .indicators {
+    z-index: 1;
+    left: 37px;
+    top: calc(50vh - 56px);
+    width: 20px;
+}
+
+.slider .indicators .indicator-item {
+    background-color: transparent;
+    border: 1px solid #FFF;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #fff;
+}
+
+.header .slider h3 {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 5rem;
+}
+
+.header .slider h5 {
+    font-size: 18px;
+}
+
+.header .slider .slides .slide1 {
+    background-image: url(http://placehold.it/1920x637); /* Here You Can Add image Slide 1 */
+    background-size: cover;
+}
+
+.header .slider .slides .slide2 {
+    background-image: url(http://placehold.it/5616x3744); /* Here You Can Add image Slide 2 */ 
+    background-size: cover;
+}
+
+.header .slider .slides .slide2 .caption {
+    top: 30vh;
+}
+
+.header .slider .slides li .caption {
+    top: 20vh;
+}
+
+/* End Header */
+
+/*==========================================================
+
+                    3. START ABOUT SECTION
+
+===========================================================*/
+
+.about {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 65px;
+    margin-bottom: 54px;
+}
+
+.about .row {
+    margin-bottom: 45px;
+}
+
+.about h5 {
+    padding-bottom: 20px;
+    font-size: 24px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.about .weare img{
+    border-radius: 10px;
+    width: 240px;
+    margin: auto;
+    display: block;
+}
+
+.about .weare p {
+    line-height: 1.7;
+    font-size: 14px;
+    padding: 0 30px 0 0;
+}
+
+.about .para {
+    padding: 0;
+}
+
+.about .skills {
+    margin-left: 50px;
+}
+
+.about .skills h6 {
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: -45px;
+    left: 22%;
+}
+
+.about .skills div {
+    width: 60%;
+    position: relative;
+    height: 210px;
+    border-bottom: 1px solid #333;
+    padding-left: 12%;
+}
+
+.about .skills div span {
+    display: block;
+    width: 43px;
+    position: absolute;
+    bottom: 0;
+}
+
+.about .skills div span:nth-of-type(2), 
+.about .skills h6:nth-of-type(2) {
+    left: 34%;
+}
+.about .skills div span:nth-of-type(3),
+.about .skills h6:nth-of-type(3) {
+    left: 48%;
+}
+.about .skills div span:nth-of-type(4){
+    left: 62%;
+}
+
+.about .skills h6:nth-of-type(4) {
+    left: 66%;
+}
+
+.about .next {
+    position: relative;
+    bottom: -7px;
+}
+
+.about .prev {
+    margin-bottom: 30px;
+}
+
+.about .next h4,
+.about .prev h4 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.about .prev h4 {
+    margin-top: 115px;
+}
+
+.about .next span,
+.about .prev span {
+    transform: rotate(90deg);
+    border-radius: 50%;
+    border: 1px solid #333;
+    display: block;
+    width: 24px;
+    height: 0px;
+    line-height: 0px;
+    margin: auto;
+    padding: 11px 6px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.about .prev span {
+    transform: rotate(-90deg);
+}
+
+.about .card {
+    position: relative;
+    width: 235px;
+    height: 340px;
+    border-radius: 6px;
+    margin: auto;
+    background-color: transparent;
+}
+
+.about .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+
+.about .card .title-team {
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 78px;
+    border-radius: 6px;
+    text-align: center;
+    z-index: 1;
+    overflow: hidden;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.about .card h3 {
+    font-size: 22px;
+    margin: 14px 0px 4px;
+    font-family: 'Lobster Two', sans-serif;
+}
+
+.about .card span {
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.about .card .social-media {
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 0;
+    height: 74%;
+    width: 100%;
+    border-radius: 6px;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.about .card .social-media a {
+    color: #333;
+}
+
+.about .card .social-media .fa-dribbble {
+    top: 26%;
+    left: 47%;
+    position: absolute;
+}
+
+.about .card .social-media .fa-twitter {
+    top: 36%;
+    left: 31%;
+    position: absolute;
+}
+
+.about .card .social-media .fa-facebook {
+    top: 36%;
+    right: 33%;
+    position: absolute;
+}
+
+.about .card .social-media .fa-tumblr {
+    bottom: 49%;
+    left: 47%;
+    position: absolute;
+}
+
+.about .card .social-media hr {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    bottom: 0;
+    border: 1px solid #555;
+    width: 118px;
+}
+
+.about .card .social-media hr:nth-of-type(2){
+    transform: rotate(-45deg);
+}
+
+.about .card:hover .social-media {
+    opacity: 1
+}
+
+.about .card p {
+    opacity: 0;
+    font-size: 12px;
+    padding: 0 10px;
+    line-height: 1.7;
+    color: #888;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.about .card:hover p {
+    opacity: 1;
+}
+
+.about .card:hover .title-team {
+    height: 155px;
+}
+
+.about .space {
+    margin-bottom: 36px;
+}
+
+/*==========================================================
+
+                    4. START SERIVES SECTION
+
+===========================================================*/
+
+.serv {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.serv .info {
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.serv .info h5 {
+    text-transform: uppercase;
+}
+
+.serv i {
+    text-align: center;
+    display: block;
+    font-size: 60px;
+    padding-top: 53px;
+}
+
+.serv .title-serv h3 {
+    font-size: 24px;
+    padding: 10px 0 0;
+    margin: 0;
+    border-bottom: 1px solid #F8F8F8;
+    padding-bottom: 10px;
+}
+
+.serv .title-serv p {
+    padding: 0 10px 13px;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+.serv .ourserv {
+    margin-bottom: 40px;
+}
+
+.serv .title-serv {
+    color: #F8F8F8;
+    width: 200px;
+    margin: auto;
+    border-radius: 0 0 6px 6px;
+}
+
+.serv .ourserv .bord {
+    width: 200px;
+    height: 170px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px 6px 0 0;
+    display: inline-block;
+}
+
+.serv .ourserv>i {
+    padding-top: 90px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.serv .ourserv>i:hover {
+    padding-top: 80px;
+}
+
+
+/*==========================================================
+
+                    5. START WROK SECTION
+
+===========================================================*/
+
+.work {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 58px;
+}
+
+.work .port {
+    position: relative;
+    width: 100%;
+    height: 280px;
+}
+
+.work img {
+    width: 100%;
+    height: 100%;
+}
+
+.work .col.l2,
+.work .col.l3,
+.work .col.l4{
+    padding: 0;
+    margin: 0
+}
+
+.work .row {
+    margin-bottom: 0;
+}
+
+.work .overlay-work {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+}
+
+.work .overlay-work h3 {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 35px;
+    float: right;
+    padding-right: 29px;
+    padding-top: 46px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.work .overlay-work span {
+    font-size: 19px;
+    padding-right: 29px;
+    margin-top: -11px;
+    float: right;
+    color: #FFF;
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+
+.work .overlay-work i {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #FFF;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.work .port:hover .overlay-work {
+    opacity: 1;
+}
+
+/*==========================================================
+
+                    6. START CONTACT SECTION
+
+===========================================================*/
+
+.contact {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact h5 {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.contact p {
+    padding-left: 12px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.contact .row {
+    margin-bottom: 2px;
+}
+
+.contact .info {
+    border-bottom: 1px solid #EEE;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+.contact .info i {
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.contact .info span {
+    font-size: 14px;
+}
+
+.contact .info .fa-globe {
+    padding-left: 11px;
+}
+
+.contact .address {
+    padding-left: 20px;
+    margin-bottom: 19px;
+}
+
+.contact .waves-effect {
+    display: block;
+    margin: auto;
+    height: 29px;
+    line-height: 29px;
+    font-size: 14px;
+}
+
+.contact .copyright span {
+    font-size: 10px;
+    position: absolute;
+    bottom: 58px;
+    left: 29%;
+}
+
+/* Start Map */
+
+.google-wrapper {
+    position: relative;
+}
+
+#google-map,
+.contact iframe {
+    border: 0;
+    width: 100%;
+    height: calc(100vh - 56px);
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+      -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+      -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+}
+
+.scrolloff {
+    pointer-events: none;
+}
+
+.maps {
+    padding: 0!important;
+}
+
+/* End Map */
+
+
+.box,
+.box-vis{
+    position: fixed;
+    top: 0px;
+    right: -44px;
+    width: 320px;
+    z-index: 9999;
+    height: 80px;
+    background-color: #FFF;
+    transform: skewX(48deg);
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.box-vis {
+    width: 85px;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.box-vis i {
+    transform: skewX(-48deg);
+    top: 14px;
+    right: 39px;
+    position: absolute;
+    font-size: 23px;
+    color: #FFF;
+}
+
+.box .colors a {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    transform: skewX(-48deg);
+}
+
+.box-mobile .colors a {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin-right: 8px;
+    margin-left: 3px;
+}
+
+.box .colors a:nth-of-type(1) {
+    background-color: #966a39;
+    left: 15%;
+}
+.box .colors a:nth-of-type(2) {
+    background-color: #5c9639;
+    left: 26%;
+}
+.box .colors a:nth-of-type(3) {
+    background-color: #396e96;
+    left: 37%;
+}
+.box .colors a:nth-of-type(4) {
+    background-color: #96398c;
+    left: 48%;
+}
+
+
+.box .ld a {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: 46px;
+    transform: skewX(-48deg);
+    color: #333;
+    border-radius: 50%;
+}
+
+
+.box-movile .ld a {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.box .ld a:nth-of-type(1) {
+    background-color: #f8F8F8;
+    left: 15%;
+}
+.box .ld a:nth-of-type(2) {
+    background-color: #222;
+    left: 36%;
+}
+
+.box .ld span {
+    padding-left: 24px;
+    font-size: 13px;
+}
+
+.hidden {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    width: 0;
+}
+
+/* Style Demo */
+
+.header-demo {
+    text-align: center;
+}
+
+.header-demo .title-demo {
+    background-color: #1d1d1d;
+    color: #FFF;
+    height: 100%;
+    margin-bottom: 13%;
+    padding-bottom: 40px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.header-demo .title-demo h1 {
+    font-family: 'Lobster Two', sans-serif;
+    font-size: 82px;
+    margin-top: 0;
+    font-weight: 200;
+    padding-top: 38px;
+}
+
+.header-demo .title-demo h4 {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+.header-demo .title-demo p {
+    letter-spacing: 1px;
+    padding: 0px 10%;
+    margin-bottom: 60px;
+    line-height: 1.7;
+}
+
+.header-demo .title-demo .demo,
+.header-demo .demo1 a {
+    color: #333;
+}
+
+.header-demo .title-demo .demo button,
+.header-demo .demo1 button {
+    background-color: #FFF;
+    border: none;
+    padding: 11px 60px;
+    font-size: 17px;
+    border-radius: 0 0 9px 9px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header-demo .title-demo .demo button:hover,
+.header-demo .demo1 button  {
+    background-color: #966a39;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+
+.header-demo .demo1 h2 {
+    font-size: 21px;
+    margin: 10px 0 27px;
+    background-color: #966a39;
+    color: #FFF;
+    margin-bottom: 0;
+    height: 47px;
+    line-height: 47px;
+    border-radius: 10px 10px 0 0;
+}
+
+/* Start Loading Page */
+
+.loading-overlay {
+    background: #1E1E1E;
+    color: #FFF;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    padding-top: calc((100vh / 2) - 20px);
+}
+
+.sk-folding-cube {
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+}
+
+/* End Loading Page */

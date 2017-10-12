@@ -1,0 +1,23 @@
+@font-face {
+ font-family: "Flaticon";
+ src: url("../fonts/Flaticon.eot");
+ src: url("../fonts/Flaticon.eot#iefix") format("embedded-opentype"),
+ url("../fonts/Flaticon.woff") format("woff"),
+ url("../fonts/Flaticon.ttf") format("truetype"),
+ url("../fonts/Flaticon.svg") format("svg");
+ font-weight: normal;
+ font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("Flaticon.html#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+    font-family: Flaticon;
+  font-style: normal;
+}
+.flaticon-animal:before{content:"\f100"}an:before{content:"\f103"}.flaticon-can-1:before{content:"\f104"}.flaticon-can-2:before{content:"\f105"}.flaticon-cut:before{content:"\f106"}.flaticon-cut-1:before{content:"\f107"}.flaticon-cut-2:before{content:"\f108"}.flaticon-ecology:before{content:"\f109"}.flaticon-farming:before{content:"\f10a"}.flaticon-fence:before{content:"\f10b"}.flaticon-fireman:before{content:"\f10c"}.flaticon-food:b .flaticon-black:before{content:"\f101"}.flaticon-bucket:before{content:"\f102"}.flaticon-cefore{content:"\f10d"}.flaticon-gardener-boot:before{content:"\f10e"}.flaticon-gardening:before{content:"\f10f"}.flaticon-gardening-1:before{content:"\f110"}.flaticon-grass-leaves-silhouette:before{content:"\f111"}.flaticon-hose:before{content:"\f112"}.flaticon-machine:before{content:"\f113"}.flaticon-nature:before{content:"\f114"}.flaticon-nature-1:before{content:"\f115"}.flaticon-nature-10:before{content:"\f116"}.flaticon-nature-2:before{content:"\f117"}.flaticon-nature-3:before{content:"\f118"}.flaticon-nature-4:before{content:"\f119"}.flaticon-nature-5:before{content:"\f11a"}.flaticon-nature-6:before{content:"\f11b"}.flaticon-nature-7:before{content:"\f11c"}.flaticon-nature-8:before{content:"\f11d"}.flaticon-nature-9:before{content:"\f11e"}.flaticon-outdoor-table:before{content:"\f11f"}.flaticon-people:before{content:"\f120"}.flaticon-people-1:before{content:"\f121"}.flaticon-plant-on-a-hand:before{content:"\f122"}.flaticon-scale:before{content:"\f123"}.flaticon-scissors:before{content:"\f124"}.flaticon-scissors-1:before{content:"\f125"}.flaticon-shovel:before{content:"\f126"}.flaticon-sign:before{content:"\f127"}.flaticon-spray:before{content:"\f128"}.flaticon-sprout:before{content:"\f129"}.flaticon-tool:before{content:"\f12a"}.flaticon-tool-1:before{content:"\f12b"}.flaticon-tool-2:before{content:"\f12c"}.flaticon-tool-3:before{content:"\f12d"}.flaticon-tree:before{content:"\f12e"}.flaticon-tree-1:before{content:"\f12f"}.flaticon-tree-with-many-leaves:before{content:"\f130"}.flaticon-work:before{content:"\f131"}

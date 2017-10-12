@@ -20,11 +20,12 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-}
+  }
 
 .slider {
   background-color: #000000; 
 }
+
 .slide-img { 
   opacity: 0.5; 
 }
